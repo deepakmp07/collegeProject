@@ -9,8 +9,13 @@ import { Routes,Route } from 'react-router-dom';
 // import AddMovie from './components/addmovie';
 // import { MovieProvider } from './components/moviecontext';
 // import Nav from './components/nav';
+import FavoriteColor from './components/hh';
 import DynamicForm from './components/create.js';
-import gridGame from "./components/gridgame";
+import Dropdow from './components/box';
+import Colorchanger from './components/colorChanger';
+import Dropdown from "./components/dropbox";
+import Change from  "./components/w.js"
+//import gridGame from "./components/gridgame";
 function App() {
   return (
     <div className="App">
@@ -45,7 +50,9 @@ function App() {
      <AddMovie/>
      <MovieList/> 
      </MovieProvider> */}
-     <gridGame/>
+     {/* 
+      */}
+     <Change/>
     </div>
   );
 }
