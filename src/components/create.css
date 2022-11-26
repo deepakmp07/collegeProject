@@ -1,0 +1,40 @@
+.register{
+position:fixed;
+}
+.box{
+    display:absolute;
+    background-color: #ad717b;
+    margin-left: 20%;;
+    margin-right : 20%;
+    border:10px solid green;
+    padding-top:50px;
+    opacity: 30px;
+}
+h3{
+    font-size:40px;
+}
+label{
+    font-size: 19px;
+    padding-right: 280px;
+}
+input[type=text],[type=password]{
+padding:10px;
+border-radius:7px;
+margin-right:115px;
+width:40%;
+}
+input[type=submit]{
+    padding:10px;
+    border-radius:7px;
+    margin-right:100px;
+    width:20%;
+    background-color:bl ;
+}
+input:focus{
+border: 6px solid red;
+}
+.button:focus{
+    border: 6px solid rgb(26, 27, 24);
+    background-color:black;
+   color:white;
+}
